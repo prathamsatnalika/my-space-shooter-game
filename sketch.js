@@ -114,8 +114,8 @@ function draw() {
   if(GAMESTATE === PLAY) {
     background(backgroundimg); 
 
-    //spawnSpaceShip();
-    //spawnBullet();
+    spawnSpaceShip();
+    spawnBullet();
     spawnPlanets()
 
     bg.visible = true;
